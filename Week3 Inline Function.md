@@ -232,3 +232,9 @@ class {
 a const object can call a const function.
 
 you can do overload on the const function.
+
+```
+int b;
+const int a = b; // ?
+```
+
