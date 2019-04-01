@@ -21,7 +21,7 @@ class Warrior{
     const string & specialMessage();
 };
 
-class Dragon : Warrior{
+class Dragon : public Warrior{
     public:
     float _morale;
     string _weapon1;
@@ -36,7 +36,7 @@ class Dragon : Warrior{
 
 };
 
-class Ninja : Warrior{
+class Ninja : public Warrior{
     public:
     float _morale;
     string _weapon1;
@@ -52,7 +52,7 @@ class Ninja : Warrior{
 
 };
 
-class Lion : Warrior{
+class Lion : public Warrior{
     public:
     float _morale;
     unsigned int _loyalty;
@@ -66,7 +66,7 @@ class Lion : Warrior{
 
 };
 
-class Iceman : Warrior{
+class Iceman : public Warrior{
     public:
     string weapons [3] = {"sword", "bomb", "arrow"};
     float _morale;

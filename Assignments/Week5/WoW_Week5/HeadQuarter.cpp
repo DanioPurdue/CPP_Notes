@@ -14,10 +14,10 @@ bool HeadQuarter::createWarrior(const unsigned int & time_stamp){
     const string & w_name = c_orders_[create_idx_];
     int life_val = name2cost_[w_name];
     life_points_ -= life_val;
-    if (w_name == "dragon") w_list_.emplace_back((Warrior * ) new Dragon(w_nextid_, life_val, life_points_));
-    else if (w_name == "ninja") w_list_.emplace_back((Warrior *) new Ninja(w_nextid_, life_val)); 
-    else if (w_name == "lion") w_list_.emplace_back((Warrior * ) new Lion(w_nextid_, life_val, life_points_));
-    else if (w_name == "iceman") w_list_.emplace_back((Warrior *) new  Iceman(w_nextid_, life_val));
+    if (w_name == "dragon") w_list_.emplace_back(new Dragon(w_nextid_, life_val, life_points_));
+    else if (w_name == "ninja") w_list_.emplace_back(new Ninja(w_nextid_, life_val)); 
+    else if (w_name == "lion") w_list_.emplace_back(new Lion(w_nextid_, life_val, life_points_));
+    else if (w_name == "iceman") w_list_.emplace_back(new  Iceman(w_nextid_, life_val));
     else w_list_.emplace_back(new Warrior(w_name, w_nextid_,life_val));
     Warrior * w = w_list_[w_list_.size()-1];
     w_nextid_++;
