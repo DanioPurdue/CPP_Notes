@@ -55,6 +55,7 @@ base_class_var = derived based;
 base & br = d;
 base * pb = &d;
 ```
-
+## Notes on Inheritance
+[cppNotes](https://www.learncpp.com/cpp-tutorial/115-inheritance-and-access-specifiers/)
 ## Direct derivation, and indirect derivation
 
