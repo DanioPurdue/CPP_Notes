@@ -107,6 +107,6 @@ int Max(int n1, int n2, int n3);
 void func(int x1, int x2 = 2, int x3 = 3) {}
 ```
 
-![image-20190325163951670](/Users/daniowang/OneDrive/GitHub/CPP_Notes/缺省.png)
+![image-20190325163951670](缺省.png)
 
 This is easier for expanding the project.
