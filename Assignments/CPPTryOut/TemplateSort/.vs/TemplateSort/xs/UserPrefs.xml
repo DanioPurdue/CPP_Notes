@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.TemplateSort FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TemplateSort/MyClass.cs">
+    <Files>
+      <File FileName="TemplateSort/MyClass.cs" Line="7" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TemplateSort" expanded="True">
+            <Node name="TemplateSort" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,5 +1,5 @@
 ```c++
-returntype (*func_ptr_name)(param_type);
+return type (*func_ptr_name)(param_type);
 int (*pf)(int, char);
 
 pf = PrintMin;
