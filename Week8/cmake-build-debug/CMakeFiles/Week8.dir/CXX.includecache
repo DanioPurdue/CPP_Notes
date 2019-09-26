@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/daniowang/OneDrive/GitHub/CPP_Notes/Week8/main.cpp
+iostream
+-
+iterator
+-
+set
+-
+vector
+-
+

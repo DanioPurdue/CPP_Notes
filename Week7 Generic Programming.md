@@ -4,8 +4,6 @@ function template
 
 class template
 
-
-
 function template
 
 ```c++
